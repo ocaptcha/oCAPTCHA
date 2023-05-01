@@ -5,7 +5,8 @@ function getSolution(string $id, string $path): string | false {
     for ($i = 0; $i < sizeof($captchas); $i++) {
         $found = explode('-', $captchas[$i])[0];
         if ($found == $id) {
-            return explode('-', $captchas[$i])[1];
+            $solution = explode('-', $captchas[$i])[1];
+            return explode('.', $solution)[0];
         }
     }
 

@@ -19,7 +19,7 @@ function generateId(string $solution): string {
 
 $solution = generateSolution(6);
 $id = generateId($solution);
-$filename = '../challenges/'.$id.'-'.$solution;
+$filename = '../challenges/'.$id.'-'.$solution.'.png';
 $captcha = new CreateImage($solution);
 $captcha = $captcha->create();
 
