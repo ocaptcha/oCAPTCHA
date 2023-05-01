@@ -4,7 +4,7 @@ import time
 max_age = 3
 exclude = ['.htaccess', 'cleaner.py']
 
-print(f'Deleting files that are older that {max_age} minutes...')
+print(f'Deleting files that are older than {max_age} minutes...')
 while True:
     for file in os.listdir():
         if not os.path.isfile(file):
@@ -17,4 +17,4 @@ while True:
             print(f'Removing {file}')
             os.remove(file)
 
-    time.sleep(max_age * 60)
+    time.sleep(10)
