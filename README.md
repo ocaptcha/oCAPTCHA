@@ -8,10 +8,13 @@ An oCAPTCHA consists of a background-image, multiple fonts and an overlay:
 
 **Solution: `T09JLD`**
 ![Solution: T09JLD](https://i.ibb.co/zNp2tLk/72d3b7d7e10920f31b590d31e99e596202567f8d32bc3a6c7c53c4f70861291a-T09-JLD.png)
+
 **Solution: `WIOM3O`**
 ![Solution: WIOM3O](https://i.ibb.co/54WJYvj/37138a1efd75e88dca72283111096b236e6599e752e47904e6d1be16be168301-WIOM3-O.png)
+
 **Solution: `24ACDR`**
 ![24ACDR](https://i.ibb.co/nsPmjjh/b766d51885c21d200b81fa9f5bcfc2a62d63a0b1888885e83d2a7cb47b87afdf-24-ACDR.png)
+
 ## How does it work?
 
 ### Creating an oCAPTCHA:
